@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+   
+  }
+  html,body{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+  }
+  .bg{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.pexels.com/photos/4572763/pexels-photo-4572763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    background-position: center;
+  }
+  .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.315);
+    padding-left: 10%;
+    /* padding-top: 1px; */
+    
+  }
+  .searcharea{
+    width: 35%;
+    height: 100%;
+    background-color: #c05bae1c;
+    position: absolute;
+    right: 0;
+    backdrop-filter: blur(15px);
+    color: white;
+    padding-left: 4%;
+   
+  
+  }
+  #form form{
+    /* width: 100%;border: solid 1px black; */
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+  }
+  #form input[type="text"]{
+  width: 70%;
+  border: none;
+  border-bottom: solid 1px grey;
+  background-color: transparent;
+  outline: none;
+  font-size: 22px;
+  color: white;
+  /* padding: 0 40px; */
+  }
+  #form button{
+    width: 20%;
+    background-color: #dd6b00;
+    border: none;
+  }
+  button i{
+    font-size: 30px;
+    color: white;
+  }
+  ::placeholder{
+    font-size: 22px;
+  }
+  
+  .searcharea h4{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 6rem 0;
+   
+  }
+  ul li{
+    list-style-type: none;
+    margin-top: 3rem;
+  }
+  
+  #content{
+    /* height: 20vh; */
+    width: 500px;
+    /* background-color: yellow;   */
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    /* font-size: 6rem; */
+  
+  }
+  #content h1{
+    font-size: 6rem;
+  }
+  #content h2{
+    font-size: 4rem;
+  }
+  nav{
+    padding-top: 2rem;
+  }
+  nav h3{
+    color: white;
+    font-size: 1.2rem;
+    /* margin-top: 2rem; */
+  }
+  .details{
+    display: flex;
+  }
+  .details ul{
+    margin-right: 6rem;
+  }
